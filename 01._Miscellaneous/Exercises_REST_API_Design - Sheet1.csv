@@ -1,0 +1,7 @@
+Endpoint,HTTP Method,Description
+/exercises,GET,retrieve all exercise resources
+/exercises/{id},GET,retrieve an exercises resource by id
+/exercises,POST,create an exercise resource
+/exercises/{id},PUT,update an entire exercise resource
+/exercises/{id},PATCH,update parts of an exercise resource
+/exercises/{id},DELETE,delete an exercise resource

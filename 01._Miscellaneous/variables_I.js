@@ -35,3 +35,19 @@ console.log(people);
 
 // ASI
 
+// How to define string in JS:
+// ""
+// ''
+// ``
+
+"He is soooo ''''''''''''''fine' ";
+'He is soooo """"""""""""""fine" ';
+const stringTemplateLiteral = `He is soooo nice "'"'  ${2 + 2} 
+
+I can have
+multi-line string
+    yaaay
+`
+
+
+console.log(stringTemplateLiteral);
