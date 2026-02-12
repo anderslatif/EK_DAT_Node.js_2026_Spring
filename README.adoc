@@ -75,6 +75,7 @@ a|
 * Anatomy of an URL.
 * All the ways to send data from a client to a server.
 * Serving HTML with Express.
+* XSS.
 a|
 * Understands the use case for Nodemon and its limitation to development.
 * Can use loop methods (+map, +filter, %reduce). Can choose the right one at the appropriate time:
@@ -83,10 +84,11 @@ a|
 * Understands why a functional approach to loops is to be preferred and how to implement it without side effects.
 * Can use the right terminology when it comes to the different parts of an URL.
 * Can make a POST request and parse the body in Express.
+* Understand the dangers of XSS and how to prevent it in frontend (avoiding innnerHTML) and backend (sanitizing).
 a|
 link:00._Course_Material/01._Assignments/03._Loop_Methods/CSS_Games.md[CSS Games]
 
-link:00._Course_Material/01._Assignments/03._Loop_Methods/REST_API_Part_II.md[Greek Gods REST API - Part II]
+link:00._Course_Material/01._Assignments/03._Loop_Methods/REST_API_Part_II.md[Movies REST API - Part II]
 
 
 |===

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Server</title>
+</head>
+<body>
+    <h1>Frontpage</h1>
+    
+    <h3 id="snowstorm-warning"></h3>
+   
+    <script>
+        // assignment: create a fetch to /snowstorms and console.log the warning and show it on the page
+
+        fetch('/snowstorms')
+        .then((response) => response.json())
+        .then((result) => {
+            const snowstormWarningH3 = document.getElementById('snowstorm-warning');
+           
+            snowstormWarningH3.textContent = result.data;
+        });
+
+    </script>
+</body>
+</html>

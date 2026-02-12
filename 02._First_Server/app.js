@@ -9,8 +9,13 @@ app.use(express.json());
 // const app = require('express')();
 
 
+
 app.get('/', (req, res) => {
-    res.send({ data: "Welcome to the first server!" });
+    res.sendFile(__dirname + '/index.html');
+});
+
+app.get('/xss', (req, res) => {
+    res.sendFile(__dirname + '/xss.html');
 });
 
 
